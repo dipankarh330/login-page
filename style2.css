@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url(reg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1{
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 40px 40px;
+    width: 500px;
+    margin: 0px auto;
+    background-color: rgba(27, 24, 24, 0.425);
+}
+h2{
+    text-align: center;
+    padding:15px;
+    background-color: rgba(27, 24, 24, 0.425);
+}
+
+.register{
+    color: #ffffff;
+    background: rgb(44,62,80,0.7);
+    box-sizing: border-box;
+    padding: 40px 40px;
+    width: 500px;
+    margin: 0px auto;
+    margin-bottom: 30px
+}
+label{
+    font-size: 18px;
+    font-style: italic;
+}
+#name{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+
+}
+#num{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+
+}
+#ph{
+    width: 25%;
+    padding: 8px;
+    border-radius: 3px;
+    color: black;
+    
+}
+#sub:hover{
+    background-color: rgb(205, 240, 9);
+    cursor: pointer;
+    
+}
+#male:hover{
+    cursor: pointer;
+    color: rgb(235, 231, 10);
+}
+
+#bismal{
+    font-size: 20px;
+    text-align: center;
+    color: hsl(0, 23%, 95%)
+}

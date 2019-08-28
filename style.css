@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(login.jpg);
+
+}
+
+
+.loginbox{
+    height: 500px;
+    color: #ffffff;
+    background: rgb(44,62,80,0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 50px;    
+}
+
+h1{
+    padding: 10px;
+}
+.icon{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+.loginbox input{
+    width: 150px;
+    margin-bottom: 10px;
+}
+.loginbox input[type="submit"]{
+    background-color:rgb(255, 0, 0);
+    color: #ffffff;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(205, 195, 50);
+    color: #ffffff;
+}
+.loginbox a{
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+
+}
+#forgot:hover{
+    color: rgb(226, 240, 106)
+}
+#signup:hover{
+    color: rgb(226, 240, 106)
+}
